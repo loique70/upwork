@@ -14,9 +14,9 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-          <NavBar />
-          
-          <Footer  links={links} copy={copy}/>
+          Hello Loique welcome to your firt deployed app
+          <h1>What is up there</h1>
+          <p>We are lioness</p>
       </div>
     </main>
   )
