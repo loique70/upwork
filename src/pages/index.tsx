@@ -10,7 +10,7 @@ export default function Home() {
     >
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
           Hello Loique welcome to your firt deployed app
-          <h1>What is up there.....????.</h1>
+          <h1>What is up there</h1>
           <p>We are lioness</p>
       </div>
     </main>
