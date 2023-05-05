@@ -7,7 +7,7 @@ interface FooterProps {
 
 const FooterContent: React.FC<FooterProps> = ({ title = 'Abstract', list }) => {
   return (
-    <div className='flex px-8 py-4'>
+    <div className='flex px-2 py-2'>
       <div>
         <h3>{title}</h3>
         {list && list.map((item, index) => <p key={index}>{item}</p>)}

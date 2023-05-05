@@ -13,7 +13,7 @@ interface FooterProps {
 
 const Footer: React.FC<FooterProps> = ({ links, copy }) => {
   return (
-    <main className='bg-[#000] text-white p-4 fixed bottom-0 left-0 right-0 w-full'>
+    <main className='bg-[#000] text-white p-2  w-full'>
       <div className='grid grid-cols-4 mb-4'>
         {links &&
           links.map((link, index) => (
